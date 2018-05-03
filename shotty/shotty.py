@@ -28,7 +28,7 @@ def snapshots():
 @click.option('--project', default=None,
     help="Only snapshots for project (tag Project:<name>)")
 @click.option('--all', 'list_all', default=False, is_flag=True,
-    help="List all snapshots for each volume, not jsut most recent")
+    help="List all snapshots for each volume, not just most recent")
 def list_snapshots(project, list_all):
     "List EC2 snapshots"
 
